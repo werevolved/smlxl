@@ -1,0 +1,25 @@
+body, html {
+	height: 100%;
+	margin: 0 auto;
+	background-color: #6313A5;
+/*	text-align: center;*/
+	/*font-size: 45px;*/
+/*	color: #F5C60D;*/
+}
+/*
+.nav {
+
+	background-color: #6313A5;
+}
+*/
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+
+	background-color: transparent;
+}
+
+.navbar {
+
+	background-color: #F5C60D;
+
+}

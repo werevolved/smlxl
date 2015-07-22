@@ -35,7 +35,7 @@
 	</nav>
 <%# form_for :posts, url: posts_path do |f| %>
 
-<%= form_for :posts do |f| %>
+<%= form_for @post do |f| %>
   <p class="postForm">
     <%= f.label :title %><br>
     <%= f.text_field :title %>

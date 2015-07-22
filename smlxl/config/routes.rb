@@ -3,7 +3,8 @@ Rails.application.routes.draw do
   resources :posts
   root 'welcome#index'
   get 'welcome/index'
-  post 'posts/new'
+  #post 'posts/new' => 'posts#create'
+  get 'posts/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

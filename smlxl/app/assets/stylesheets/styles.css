@@ -4,7 +4,7 @@ body, html {
 	background-color: #6313A5;
 /*	text-align: center;*/
 	/*font-size: 45px;*/
-/*	color: #F5C60D;*/
+	color: #5880BB;
 }
 /*
 .nav {
@@ -22,4 +22,16 @@ body, html {
 
 	background-color: #F5C60D;
 
+}
+
+.brand {
+
+	font-size: 100px;
+	color: #0F60CF;
+}
+
+.brand2 {
+
+	font-size: 50px;
+	color: #0F60CF;
 }

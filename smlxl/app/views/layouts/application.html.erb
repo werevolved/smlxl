@@ -17,7 +17,7 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="#">SMLXL</a>
+	      <a class="navbar-brand" href="/welcome/index">SMLXL</a>
 	    </div>
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -28,6 +28,8 @@
 			  Logged in as <strong><%= current_user.email %></strong>.
 			 <li> <%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %></li>
 			  <li><%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %></li>
+			  <li><a href="/posts/new">New Post</a></li>
+			  <li><a href="/posts"> Show All Posts </a></li>
 			 <!--  -->
 	      	<% else %>
 	        	<li class="active"><%= link_to "Sign up", new_user_registration_path, :class => 'navbar-link'  %></li>

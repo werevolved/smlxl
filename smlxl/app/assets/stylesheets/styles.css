@@ -40,9 +40,10 @@ tr {
 }
 
 .showPost {
-	border: 6px #666666 !important;
+	border: 20px #666666 !important;
 	border-radius: 30px;
 	padding-left: 60px;
+	padding-right: 60px;
 	padding-top: 40px;
 	padding-bottom: 40px;
 	background-color: #F5C60D;
@@ -50,3 +51,15 @@ tr {
 	font-size: 20px;
 	margin: 20px;
 }
+
+.postTags {
+
+	font-size: 14px;
+}
+
+
+
+
+
+
+

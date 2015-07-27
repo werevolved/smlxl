@@ -1,7 +1,22 @@
 Rails.application.routes.draw do
-  get 'welcome/index'
+ 
 
   devise_for :users
+  post 'profiles' => 'profiles#create', as: :profiles
+
+  get 'profiles/new'
+
+  get 'profiles/create'
+
+  get 'profiles/destroy'
+
+  get 'profiles/show/:id' => 'profiles#show'
+
+  get 'profiles/index'
+
+  get 'profiles/edit'
+
+  get 'welcome/index'
   resources :posts
   root 'welcome#index'
   get 'welcome/index'
